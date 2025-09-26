@@ -30,7 +30,7 @@ const Header: React.FC<HeaderProps> = ({
         {showLogo && (
           <div className="header-logo">
             <div className="logo-circle">
-              <span className="logo-text">CAIXA</span>
+              <span className="logo-text">Bagual</span>
             </div>
           </div>
         )}

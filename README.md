@@ -1,6 +1,6 @@
-# Projeto React CAIXA Bet
+# Projeto React Bagual Bet
 
-Este projeto foi criado com React, TypeScript e Vite, baseado no design do aplicativo CAIXA Bet para captura e envio de documentos.
+Este projeto foi criado com React, TypeScript e Vite, baseado no design do aplicativo Bagual Bet para captura e envio de documentos.
 
 ## 🚀 Funcionalidades
 

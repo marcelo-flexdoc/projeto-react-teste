@@ -54,7 +54,7 @@ const CapturePage: React.FC = () => {
   return (
     <div className="capture-page">
       <Header 
-        title="CAIXA Bet" 
+        title="Bagual Bet" 
         showBackButton={!showCaptureButtons}
         onBackClick={handleBackClick}
       />

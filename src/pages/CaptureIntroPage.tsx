@@ -13,7 +13,7 @@ const CaptureIntroPage: React.FC = () => {
 
   return (
     <div className="capture-intro-page">
-      <Header title="CAIXA Bet" />
+      <Header title="Bagual Bet" />
       
       <ProgressIndicator 
         currentStep={4} 
