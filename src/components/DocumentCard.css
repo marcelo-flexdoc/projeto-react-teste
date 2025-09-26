@@ -1,0 +1,64 @@
+/* Document Card Component Styles */
+.document-card {
+  background-color: var(--white);
+  border-radius: var(--border-radius-lg);
+  padding: 1.5rem;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--gray-200);
+  transition: var(--transition);
+}
+
+.document-card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.document-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.document-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--black);
+  margin: 0;
+}
+
+.document-subtitle {
+  font-size: 1rem;
+  color: var(--gray-600);
+  margin: 0;
+}
+
+.document-size {
+  font-size: 0.875rem;
+  color: var(--gray-600);
+  margin: 0;
+}
+
+.document-description {
+  font-size: 0.875rem;
+  color: var(--gray-600);
+  margin: 0;
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  .document-card {
+    padding: 1rem;
+  }
+  
+  .document-title {
+    font-size: 1rem;
+  }
+  
+  .document-subtitle {
+    font-size: 0.875rem;
+  }
+  
+  .document-size,
+  .document-description {
+    font-size: 0.75rem;
+  }
+}
